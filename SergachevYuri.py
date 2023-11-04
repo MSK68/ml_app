@@ -36,14 +36,14 @@ font = ImageFont.truetype("arial.ttf", size=font_size)
 # перебираем все вхождения
 for score, label, box in zip(results["scores"], results["labels"], results["boxes"]):
     box = [round(i, 2) for i in box.tolist()]
-    # Пишем что нашли
+    # Пишем лог что нашли
     print(
             f"Нашли {model.config.id2label[label.item()]} с уверенностью "
             f"{round(score.item(), 3)} в квадрате {box}"
     )
-    # вычисляем квадрат
+    # вычисляем квадрат с найденым объектом
     x, y, x_max, y_max = box
-    # рисуем квадрат
+    # рисуем квадрат на найденом объекте
     draw.rectangle([x, y, x_max, y_max], outline=box_color, width=box_width)
 
     # высчитываем размер текста
@@ -54,7 +54,7 @@ for score, label, box in zip(results["scores"], results["labels"], results["boxe
     draw.text((x, y), model.config.id2label[label.item()], fill=text_color, font=font)
 
 
-# сохроняем изображение
+# сохроняем изображение с найдеными объектами
 image.save("output.jpg")
 # Показываем изображение
 image.show()
