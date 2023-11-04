@@ -10,3 +10,5 @@ Team:\
 Task 01 commits:\
  - svasilev_main.py
  - SergachevYuri.py
+
+
