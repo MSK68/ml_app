@@ -11,4 +11,5 @@ Task 01 commits:\
  - svasilev_main.py
  - SergachevYuri.py
  - Akulov_M_main.py
+ - DolgovD.py (модель, определяющая эмоциональную окраску текста)
 
