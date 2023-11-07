@@ -9,7 +9,7 @@ Team:\
 
 Task 01 commits:\
  - svasilev_main.py
- - SergachevYuri.py
+ - SergachevYuri.py ( Модель: detr-resnet-50, определение предметов на изображении)
  - Akulov_M_main.py
  - DolgovD.py (модель roberta-base_go-emotions, определяющая эмоциональную окраску текста)
 
