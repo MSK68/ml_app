@@ -18,12 +18,12 @@
 
 Далее необходимо добавить ссылку на изрбражение. Для этого нажимаем на кнопку "Try it out" и в текстовом поле вставляем ссылку на изображение.
 
-![Добавление изображения](https://github.com/MSK68/ml_app/blob/main/sergachevyuri/try.png "Добавление изображения")
+![Добавление изображения](https://github.com/MSK68/ml_app/blob/main/sergachevyuri_api/try.png "Добавление изображения")
 
 После добавления ссылки нажимаем на кнопку "Execute". Происходит обработка файла и вывод ниже.
 
-![Распознанное изображение](https://github.com/MSK68/ml_app/blob/main/sergachevyuri/ex.png "Распознанное изображение")
+![Распознанное изображение](https://github.com/MSK68/ml_app/blob/main/sergachevyuri_api/ex.png "Распознанное изображение")
 
 Вывод программы выдается в формате ирбражения
 
-![Вывод программы](https://github.com/MSK68/ml_app/blob/main/sergachevyuri/out.png "Вывод программы")
+![Вывод программы](https://github.com/MSK68/ml_app/blob/main/sergachevyuri_api/out.png "Вывод программы")
