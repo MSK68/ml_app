@@ -161,8 +161,7 @@ cython_debug/
 .idea/
 
 # Requirements
-requirements_other
-requirements_torch
+requirements.txt
 
 # Gitignore
 .gitignore
