@@ -11,12 +11,12 @@
 
 После запуска программы в браузере открывается страница с адресом http://localhost:8501/ и отображается интерфейс программы.
 
-![Интерфейс программы](https://github.com/MSK68/ml_app/blob/main/svasilev/Capture_01.png "Интерфейс программы")
+![Интерфейс программы](https://github.com/MSK68/ml_app/tree/main/svasilev/task02/Capture_01.png "Интерфейс программы")
 
 Далее необходимо добавить изображение. Для этого нажимаем на кнопку "Browse files" и выбираем файл изображения.
 
-![Добавление изображения](https://github.com/MSK68/ml_app/blob/main/svasilev/Capture_02.png "Добавление изображения")
+![Добавление изображения](https://github.com/MSK68/ml_app/tree/main/svasilev/task02/Capture_02.png "Добавление изображения")
 
 После добавления изображения нажимаем на кнопку "Распознать изображение". Происходит обработка файла и вывод ниже сгенерированного описания.
 
-![Распознанное изображение](https://github.com/MSK68/ml_app/blob/main/svasilev/Capture_03.png "Распознанное изображение")
+![Распознанное изображение](https://github.com/MSK68/ml_app/tree/main/svasilev/task02/Capture_03.png "Распознанное изображение")
