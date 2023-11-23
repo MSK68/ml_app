@@ -13,3 +13,8 @@ Task 01 commits:\
  - Akulov_M_main.py (Модель: dumperize/movie-picture-captioning, Модель дает описание изображений в стиле постеров к кино)
  - DolgovD.py (модель roberta-base_go-emotions, определяющая эмоциональную окраску текста)
 
+Структура папок:
+- svasilev: # Васильев С.В.
+  - Task 02
+  - Task 03
+  - Task 04
