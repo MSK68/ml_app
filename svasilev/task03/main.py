@@ -2,11 +2,12 @@
 
 # Подключаем библиотеки
 
-import uvicorn
-from PIL import Image
 import requests
+import uvicorn
+
+from PIL import Image
 from pydantic import BaseModel
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI
 from transformers import pipeline
 
 # Создаем экземпляр класса FastAPI
