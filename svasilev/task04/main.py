@@ -43,10 +43,10 @@ async def predict(image: ImageData):
 
 # Запускаем сервер
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host='mlapp.2118281-mb64895.twc1.net', port=8000, log_level='info')
 
 # Запускаем сервер с помощью команды uvicorn main:app --reload
-# Переходим по адресу https://krapiva.space:8000/docs
+# Переходим по адресу http://mlapp.2118281-mb64895.twc1.net:8000/docs
 # Переходим в раздел POST /predict
 # Нажимаем кнопку Try it out
 # Выбираем изображение для загрузки
