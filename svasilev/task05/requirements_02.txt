@@ -1,0 +1,5 @@
+xformers
+evaluate
+datasets
+accelerate
+transformers[torch-cpu]
