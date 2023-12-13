@@ -25,3 +25,10 @@
 8. В поле Response body появится описание изображения.
 
 ![Результат работы программы](https://github.com/MSK68/ml_app/blob/main/svasilev/task03/img/img02.png "Результат работы программы")
+
+# Тестирование
+===========================
+Тестирование реализовано с помощью Github Actions. Проверяются:
+- Код 200 при отправке GET запроса.
+- Код 200 при отправке POST запроса с изображением https://huggingface.co/datasets/mishig/sample_images/resolve/main/savanna.jpg и соответствие ответа заданному значению.
+- Код 200 при отправке POST запроса с изображением https://huggingface.co/datasets/mishig/sample_images/resolve/main/savanna.jpg и длина ответа больше 0.
