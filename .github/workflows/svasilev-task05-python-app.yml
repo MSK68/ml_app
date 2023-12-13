@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flake8 pytest
+        pip install flake8 pytest httpx
         if [ -f requirements_01.txt ]; then pip install -r requirements_01.txt; fi
         if [ -f requirements_02.txt ]; then pip install -r requirements_02.txt; fi
         if [ -f requirements_03.txt ]; then pip install -r requirements_03.txt; fi
